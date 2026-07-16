@@ -90,7 +90,7 @@ export default function Hero() {
           </svg>
 
           <img
-            src="/Gemini_Generated_Image_l4gltvl4gltvl4gl_(1) copy.png"
+            src="/nawar-hero.png"
             alt="Nawar Zaher Shalash"
             className="relative z-10 w-[18rem] sm:w-[24rem] lg:w-[30rem] xl:w-[34rem] max-h-full object-contain object-bottom drop-shadow-2xl"
           />

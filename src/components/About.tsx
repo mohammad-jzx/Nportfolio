@@ -45,7 +45,7 @@ export default function About() {
             <div className="w-full max-w-sm h-80 sm:h-96 rounded-[1.5rem] overflow-hidden bg-white/30">
               {!imgError ? (
                 <img
-                       src="public/5965194032499592670_121.png"
+                       src="/nawar-about.png"
                   alt="Nawar working"
                   className="w-full h-full object-cover"
                   onError={() => setImgError(true)}
