@@ -45,11 +45,11 @@ export default function About() {
             <div className="w-full max-w-sm h-80 sm:h-96 rounded-[1.5rem] overflow-hidden bg-white/30">
               {!imgError ? (
                 <img
-                       src="public/5965194032499592670_121.png"
-                  alt="Nawar working"
-                  className="w-full h-full object-cover grayscale"
-                  onError={() => setImgError(true)}
-                />
+  src="/5965194032499592670_121.png"
+  alt="Nawar working"
+  className="w-full h-full object-cover grayscale"
+  onError={() => setImgError(true)}
+/>
               ) : (
                 <div className="w-full h-full flex items-center justify-center bg-[#E4007C]/10 text-[#111111] font-bold text-center p-6">
                   Nawar Shalash
