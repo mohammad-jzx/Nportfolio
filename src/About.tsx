@@ -44,12 +44,11 @@ export default function About() {
           >
             <div className="w-full max-w-sm h-80 sm:h-96 rounded-[1.5rem] overflow-hidden bg-white/30">
               {!imgError ? (
-                <img
- src="/Gemini_Generated_Image_l4gltvl4gltvl4gl_(1) copy.png"
-  alt="Nawar working"
-  className="w-full h-full object-cover grayscale"
-  onError={() => setImgError(true)}
-/>
+               <img
+            src="/Gemini_Generated_Image_l4gltvl4gltvl4gl_(1) copy.png"
+            alt="Nawar Zaher Shalash"
+            className="relative z-10 w-[18rem] sm:w-[24rem] lg:w-[30rem] xl:w-[34rem] max-h-full object-contain object-bottom drop-shadow-2xl"
+          />
               ) : (
                 <div className="w-full h-full flex items-center justify-center bg-[#E4007C]/10 text-[#111111] font-bold text-center p-6">
                   Nawar Shalash
